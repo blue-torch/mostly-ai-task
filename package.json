@@ -1,0 +1,19 @@
+{
+  "name": "mostly-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretty": "prettier  --write './src/**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
+    "test": "yarn run playwright test",
+    "debug": "DEBUG=pw:* yarn run playwright test --headed --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "1.20.1",
+    "prettier": "^2.8.3"
+  },
+  "dependencies": {}
+}
